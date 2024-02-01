@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    font-weight: 500;
+}
+
+.nav-left{
+    display: flex;
+    width: 60%;
+}
+
+.nav-right{
+    display: flex;
+    width: 40%;
+} 
+
+.nav-left {
+    gap: 8rem;
+    padding-left: 25px;
+}
+
+.nav-right {
+    justify-content: space-between;
+}
+
+.content {
+    padding: 50px;
+}
+
+.content h3 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.content h1 {
+    font-size: 6.8rem;
+    font-weight: 500;
+    line-height: 110px;
+    margin-top: 17px;
+}
+
+.main-second {
+    width: 100%;
+    height: 100vh;
+}
+
+.case {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 45px;
+    font-weight: 500;
+}
+
+.case-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.line {
+    width: 75px;
+    height: 2px;
+    background: black;
+}
+
+.case h4 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.projects {
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project1,
+.project2 {
+    width: 48%;
+}
+
+.project1 img,
+.project2 img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc-title h2 {
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.desc-title h5 {
+    font-weight: 400;
+    color: gray;
+    font-size: 18px;
+}
+
+.desc-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 13px 26px;
+    border-radius: 36px;
+    cursor: pointer;
+}
